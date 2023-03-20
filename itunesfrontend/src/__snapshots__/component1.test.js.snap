@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot for App 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <a
+      className="link"
+      href="/favorites"
+      onClick={[Function]}
+    >
+      View Favorites
+    </a>
+    <h2
+      className="mainHeading"
+    >
+      itunes Explora
+    </h2>
+    <div
+      className="formDetails"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label
+          className="label1"
+        >
+          Artist Name:
+          <input
+            className="input1"
+            onChange={[Function]}
+            placeholder="Artist Name"
+            type="text"
+            value=""
+          />
+        </label>
+        <br />
+        <label
+          className="label2"
+        >
+          Media:
+          <select
+            className="input2"
+            onChange={[Function]}
+            value="all"
+          >
+            <option
+              value="all"
+            >
+              All
+            </option>
+            <option
+              value="movie"
+            >
+              Movies
+            </option>
+            <option
+              value="podcast"
+            >
+              Podcasts
+            </option>
+            <option
+              value="music"
+            >
+              Music
+            </option>
+          </select>
+        </label>
+        <br />
+        <button
+          className="searchButton"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="container justify-content-center"
+    >
+      <div
+        className="row"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`snapshot for App component 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <a
+      className="link"
+      href="/favorites"
+      onClick={[Function]}
+    >
+      View Favorites
+    </a>
+    <h2
+      className="mainHeading"
+    >
+      itunes Explora
+    </h2>
+    <div
+      className="formDetails"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label
+          className="label1"
+        >
+          Artist Name:
+          <input
+            className="input1"
+            onChange={[Function]}
+            placeholder="Artist Name"
+            type="text"
+            value=""
+          />
+        </label>
+        <br />
+        <label
+          className="label2"
+        >
+          Media:
+          <select
+            className="input2"
+            onChange={[Function]}
+            value="all"
+          >
+            <option
+              value="all"
+            >
+              All
+            </option>
+            <option
+              value="movie"
+            >
+              Movies
+            </option>
+            <option
+              value="podcast"
+            >
+              Podcasts
+            </option>
+            <option
+              value="music"
+            >
+              Music
+            </option>
+          </select>
+        </label>
+        <br />
+        <button
+          className="searchButton"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="container justify-content-center"
+    >
+      <div
+        className="row"
+      />
+    </div>
+  </div>
+</div>
+`;

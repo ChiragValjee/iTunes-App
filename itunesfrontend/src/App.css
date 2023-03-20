@@ -1,0 +1,209 @@
+.spotifySongs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.songHeading{
+  font-size: 20px;
+  padding-top: 70px;
+}
+
+.audio{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.favoriteButton {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.deleteButton{
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.newFavoriteButton{
+  background: darkgreen;
+  border: 1px solid green;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  cursor: not-allowed;
+}
+
+.link{
+  background: dimgrey;
+  border: 1px grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+
+}
+
+.formDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label1{
+  margin: 5px;
+  font-weight: bold;
+
+}
+
+.input1{
+  margin: 5px;
+
+}
+
+.label2{
+  margin: 5px;
+  font-weight: bold;
+
+}
+
+.input2{
+  margin: 5px;
+
+}
+
+.searchButton{
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
+.favoritesHeading{
+  text-align: center;
+  background: linear-gradient(
+          90deg,
+          rgba(20, 159, 255, 1) 0%,
+          rgba(17, 122, 255, 1) 100%
+  );
+  color: #fff;
+  border: 1px;
+  border-color: #fff;
+  margin-left: 36%;
+  margin-right: 36%;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.mainHeading{
+  text-align: center;
+  background: linear-gradient(
+          90deg,
+          rgb(103, 14, 224) 0%,
+          rgb(225, 195, 243) 100%
+  );
+  color: #fff;
+  border: 1px;
+  border-color: #fff;
+  margin-left: 36%;
+  margin-right: 36%;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px
+;
+}
