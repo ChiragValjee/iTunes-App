@@ -1,4 +1,4 @@
-# Itunes App
+# iTunes App
 
 How to use the app
 To search:
